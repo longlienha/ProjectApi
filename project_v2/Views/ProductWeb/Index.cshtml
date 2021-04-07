@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="POST" action="/Product/Insert">
+    <label >Tên sản phẩm</label>
+    <input type="text" name="name" placeholder="Nhập tên">
+    <label >Thông tin sản phẩm</label>
+    <input type="text" name="info" placeholder="Nhập thông tin">
+    <label >Thương hiệu</label>
+    <input type="text" name="brand" placeholder="Nhập thương hiệu">
+    <label>Giá tiền</label>
+    <input type="number" name="price" placeholder="Nhập giá">
+    <label>Giá bán</label>
+    <input type="number" name="selling_price" placeholder="Nhập giá bán">
+    <input type="submit" name="submit">
+</form>
